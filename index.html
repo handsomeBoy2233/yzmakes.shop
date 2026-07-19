@@ -156,7 +156,16 @@
                     <!-- Left: Video Panel -->
                     <div class="video-panel">
                         <div id="zhicheng" class="video-wrapper">
-                            <iframe id="videoIframe" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <div id="videoPlaceholder" class="video-placeholder">
+                                <img id="videoCoverImage" class="video-cover-image" src="" alt="Video Cover">
+                                <div class="play-trigger-btn">
+                                    <svg viewBox="0 0 24 24" width="68" height="68" fill="currentColor">
+                                        <circle cx="12" cy="12" r="10" fill="rgba(0,0,0,0.6)" stroke="#c5a880" stroke-width="1.5"></circle>
+                                        <polygon points="10 8 16 12 10 16" fill="#f5f2f4"></polygon>
+                                    </svg>
+                                </div>
+                            </div>
+                            <iframe id="videoIframe" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="display: none;"></iframe>
                         </div>
                         <div class="video-status-tip">
                             <span class="pulse-dot"></span> Powered by high-speed hosting

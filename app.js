@@ -31,6 +31,8 @@ const elements = {
     detailFavToggleBtn: document.getElementById('detailFavToggleBtn'),
     favBtnText: document.getElementById('favBtnText'),
     downloadVideoBtn: document.getElementById('downloadVideoBtn'),
+    videoPlaceholder: document.getElementById('videoPlaceholder'),
+    videoCoverImage: document.getElementById('videoCoverImage'),
     videoIframe: document.getElementById('videoIframe'),
     detailCategory: document.getElementById('detailCategory'),
     detailPart: document.getElementById('detailPart'),
@@ -580,16 +582,36 @@ function loadDetailView(partNumber) {
     elements.detailPart.textContent = `Part ${drink.part}`;
     elements.detailCategory.textContent = drink.category;
     
-    // Set video source
-    let videoUrl = drink.url;
-    if (videoUrl.includes('vinovo.to/d/')) {
-        videoUrl = videoUrl.replace('vinovo.to/d/', 'vinovo.to/e/');
-    }
-    elements.videoIframe.src = videoUrl;
-
     // Set download link
     if (elements.downloadVideoBtn) {
         elements.downloadVideoBtn.href = drink.url;
+    }
+
+    // Reset video iframe and show cover image placeholder
+    elements.videoIframe.src = '';
+    elements.videoIframe.style.display = 'none';
+    
+    if (elements.videoPlaceholder && elements.videoCoverImage) {
+        elements.videoCoverImage.src = `image/${encodeURIComponent(drink.image)}`;
+        elements.videoPlaceholder.style.display = 'flex';
+        
+        elements.videoPlaceholder.onclick = () => {
+            let videoUrl = drink.url;
+            if (videoUrl.includes('vinovo.to/d/')) {
+                videoUrl = videoUrl.replace('vinovo.to/d/', 'vinovo.to/e/');
+            }
+            
+            // Append autoplay so it plays immediately on click
+            if (videoUrl.includes('?')) {
+                videoUrl += '&autoplay=1';
+            } else {
+                videoUrl += '?autoplay=1';
+            }
+            
+            elements.videoPlaceholder.style.display = 'none';
+            elements.videoIframe.style.display = 'block';
+            elements.videoIframe.src = videoUrl;
+        };
     }
 
     // Check favorite status for bookmark button
