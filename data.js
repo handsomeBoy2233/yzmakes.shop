@@ -745,7 +745,7 @@ const DRINKS_DATA = [
     "part": 1,
     "image": "Part 1： 🌅 Tequila Sunrise – A Cocktail as Beautiful as the Morning Sk.jpg",
     "title": "Part 1： 🌅 Tequila Sunrise – A Cocktail as Beautiful as the Morning Sk",
-    "url": "https://vinovo.to/e/q7kevyogaee9390",
+    "url": "https://vidara.to/v/O3ViZXrt3Icdq",
     "category": "Golden Hour & Sunsets"
   },
   {
@@ -2194,7 +2194,7 @@ const DRINKS_DATA = [
     "part": 3,
     "image": "Part 3： 🍸 Cosmopolitan – A Timeless Classic with a Fruity Twist! 🍒✨ #.jpg",
     "title": "Part 3： 🍸 Cosmopolitan – A Timeless Classic with a Fruity Twist! 🍒✨ #",
-    "url": "https://vinovo.to/e/67e2rj5gt71ow7j",
+    "url": "https://vidara.to/v/tYrVPN8OPj9il",
     "category": "Creative & Craft Cocktails"
   },
   {
@@ -2278,7 +2278,7 @@ const DRINKS_DATA = [
     "part": 5,
     "image": "PART 5 – GIN & TONIC 🍋‍🟩🍋‍🟩 A timeless classic that proves less reall.jpg",
     "title": "GIN & TONIC 🍋‍🟩🍋‍🟩 A timeless classic that proves less reall",
-    "url": "https://vinovo.to/e/og6do8y5c452n1",
+    "url": "https://vidara.to/v/89xSZG7nwTHXn",
     "category": "Whiskey, Gin & Classics"
   },
   {
@@ -2425,7 +2425,7 @@ const DRINKS_DATA = [
     "part": 7,
     "image": "PART 7 – The Manhattan “A smooth and boozy whiskey classic” 🥃✨ Welcom.jpg",
     "title": "The Manhattan “A smooth and boozy whiskey classic” 🥃✨ Welcom",
-    "url": "https://vinovo.to/e/5qd376oqfgjp9y",
+    "url": "https://vidara.to/v/gHREX1j9m7Nfh",
     "category": "Whiskey, Gin & Classics"
   },
   {
@@ -2649,7 +2649,7 @@ const DRINKS_DATA = [
     "part": 9,
     "image": "Part 9： Jungle Breeze 🍍🦜🍹✨🌿Meet the Jungle Breeze — a fizzy twist on.jpg",
     "title": "Part 9： Jungle Breeze 🍍🦜🍹✨🌿Meet the Jungle Breeze — a fizzy twist on",
-    "url": "https://vinovo.to/e/9q27o3nybo5dvy",
+    "url": "https://vidara.to/v/Zy9pAONrgF7Pb",
     "category": "Fruit Crushes & Ocean Breezes"
   }
 ];
