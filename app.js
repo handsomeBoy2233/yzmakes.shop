@@ -30,6 +30,7 @@ const elements = {
     backToGridBtn: document.getElementById('backToGridBtn'),
     detailFavToggleBtn: document.getElementById('detailFavToggleBtn'),
     favBtnText: document.getElementById('favBtnText'),
+    downloadVideoBtn: document.getElementById('downloadVideoBtn'),
     videoIframe: document.getElementById('videoIframe'),
     detailCategory: document.getElementById('detailCategory'),
     detailPart: document.getElementById('detailPart'),
@@ -580,7 +581,16 @@ function loadDetailView(partNumber) {
     elements.detailCategory.textContent = drink.category;
     
     // Set video source
-    elements.videoIframe.src = drink.url;
+    let videoUrl = drink.url;
+    if (videoUrl.includes('vinovo.to/d/')) {
+        videoUrl = videoUrl.replace('vinovo.to/d/', 'vinovo.to/e/');
+    }
+    elements.videoIframe.src = videoUrl;
+
+    // Set download link
+    if (elements.downloadVideoBtn) {
+        elements.downloadVideoBtn.href = drink.url;
+    }
 
     // Check favorite status for bookmark button
     const isFav = appState.favorites.includes(drink.part);
