@@ -33,6 +33,7 @@ const elements = {
     downloadVideoBtn: document.getElementById('downloadVideoBtn'),
     videoLink: document.getElementById('videoLink'),
     videoCoverImage: document.getElementById('videoCoverImage'),
+    videoWrapper: document.querySelector('.video-wrapper'),
     detailCategory: document.getElementById('detailCategory'),
     detailPart: document.getElementById('detailPart'),
     detailTitle: document.getElementById('detailTitle'),
@@ -668,6 +669,9 @@ function loadDetailView(partNumber) {
     elements.gridView.style.display = 'none';
     elements.detailView.style.display = 'block';
     document.body.classList.add('detail-active');
+    if (elements.videoWrapper) {
+        elements.videoWrapper.id = 'zhicheng';
+    }
 }
 
 // --- ROUTING HANDLER ---
@@ -683,6 +687,9 @@ function handleRouting() {
         elements.detailView.style.display = 'none';
         elements.gridView.style.display = 'block';
         document.body.classList.remove('detail-active');
+        if (elements.videoWrapper) {
+            elements.videoWrapper.id = 'videoWrapper';
+        }
         // Reset video link href to avoid stale links in background
         if (elements.videoLink) {
             elements.videoLink.href = '';
