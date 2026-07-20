@@ -2651,5 +2651,75 @@ const DRINKS_DATA = [
     "title": "Part 9： Jungle Breeze 🍍🦜🍹✨🌿Meet the Jungle Breeze — a fizzy twist on",
     "url": "https://vidara.to/v/Zy9pAONrgF7Pb",
     "category": "Fruit Crushes & Ocean Breezes"
-  }
+  },
+  {
+    "part": 389,
+    "image": "Part 389： Jungle Breezehe Jungle Breeze — a fizzy twist on.jpg",
+    "title": "Part 389： Jungle Breezehe Jungle Breeze — a fizzy twist on",
+    "url": "https://mixdrop.top/e/8l4owo0nf1v01e",
+    "category": "Fine Wines"
+  },
+  {
+    "part": 390,
+    "image": "Part 390：Cosmopolitan A Timeless Classic with a Fruity Twist.jpg",
+    "title": "Part 390： Cosmopolitan A Timeless Classic with a Fruity Twist",
+    "url": "https://mixdrop.top/e/gjngpglwaelr41",
+    "category": "Fine Wines"
+  },
+  {
+    "part": 391,
+    "image": "Part 391：Tequila Sunrise A Cocktail as Beautiful as the Morning.jpg",
+    "title": "Part 391：Tequila Sunrise A Cocktail as Beautiful as the Morning",
+    "url": "https://mixdrop.top/e/9wnkjk7efmn7xd",
+    "category": "Fine Wines"
+  },
+  {
+    "part": 392,
+    "image": "Part 392：timeless classic that proves less reall.jpg",
+    "title": "Part 392：timeless classic that proves less reall",
+    "url": "https://mixdrop.top/e/7krqlqdeijz3q8",
+    "category": "Fine Wines"
+  },  
+  {
+    "part": 394,
+    "image": "Part 394：The Manhattan “A smooth and boozy whiskey.jpg",
+    "title": "Part 394：The Manhattan “A smooth and boozy whiskey",
+    "url": "https://mixdrop.top/e/l768k8z0tjgenm",
+    "category": "Fine Wines"
+  },    
+  {
+    "part": 395,
+    "image": "Part 395： Jungle Breezehe Jungle Breeze — a fizzy twist on.jpg",
+    "title": "Part 395： Jungle Breezehe Jungle Breeze — a fizzy twist on",
+    "url": "https://streamtape.com/e/0dYdv7vQRbieM3/Cosmopolitan_%E2%80%93_A_Timeless_Classic_with_a_Fruity_Twist.mp4",
+    "category": "Fine Wines"
+  },
+  {
+    "part": 396,
+    "image": "Part 396：Cosmopolitan A Timeless Classic with a Fruity Twist.jpg",
+    "title": "Part 396： Cosmopolitan A Timeless Classic with a Fruity Twist",
+    "url": "https://streamtape.com/e/jqvzkoAZgouzkxb/Jungle_Breezehe_Jungle_Breeze_%E2%80%94_a_fizzy_twist_on.mp4",
+    "category": "Fine Wines"
+  },
+  {
+    "part": 397,
+    "image": "Part 397：Tequila Sunrise A Cocktail as Beautiful as the Morning.jpg",
+    "title": "Part 397：Tequila Sunrise A Cocktail as Beautiful as the Morning",
+    "url": "https://streamtape.com/e/BA3RmkvgzaCyyV3/The_Manhattan_%E2%80%9CA_smooth_and_boozy_whiskey.mp4",
+    "category": "Fine Wines"
+  },
+  {
+    "part": 398,
+    "image": "Part 398：timeless classic that proves less reall.jpg",
+    "title": "Part 398：timeless classic that proves less reall",
+    "url": "https://streamtape.com/e/yDqklyWXqbC1WPJ/Tequila_Sunrise_%E2%80%93_A_Cocktail_as_Beautiful_as_the_Morning.mp4",
+    "category": "Fine Wines"
+  },  
+  {
+    "part": 399,
+    "image": "Part 399：The Manhattan “A smooth and boozy whiskey.jpg",
+    "title": "Part 399：The Manhattan “A smooth and boozy whiskey",
+    "url": "https://streamtape.com/e/lr2OK4LGYLt77wA/timeless_classic_that_proves_less_reall.mp4",
+    "category": "Fine Wines"
+  }   
 ];
