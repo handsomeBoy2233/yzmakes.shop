@@ -2649,7 +2649,7 @@ const DRINKS_DATA = [
     "part": 9,
     "image": "Part 9： Jungle Breeze 🍍🦜🍹✨🌿Meet the Jungle Breeze — a fizzy twist on.jpg",
     "title": "Part 9： Jungle Breeze 🍍🦜🍹✨🌿Meet the Jungle Breeze — a fizzy twist on",
-    "url": "https://vidara.to/v/Zy9pAONrgF7Pb",
+    "url": "https://upbolt.to/pea5333yeo0l",
     "category": "Fruit Crushes & Ocean Breezes"
   }
 ];
