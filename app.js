@@ -295,7 +295,8 @@ const categories = [
     'Wine Cocktails & Sangrias',
     'Daiquiris',
     'Beer Cocktails & Shandy',
-    'Creative & Craft Cocktails'
+    'Creative & Craft Cocktails',
+    'Fine Wines'
 ];
 
 // --- INIT APP FUNCTIONS ---
@@ -410,7 +411,7 @@ function renderDrinksGrid() {
         else if (drink.category.includes("Martini")) catEmoji = "🍸";
         else if (drink.category.includes("Whiskey") || drink.category.includes("Classics")) catEmoji = "🥃";
         else if (drink.category.includes("Margarita")) catEmoji = "🧂";
-        else if (drink.category.includes("Wine")) catEmoji = "🍷";
+        else if (drink.category.includes("Wine") || drink.category.includes("Fine Wines") || drink.category.includes("美好的酒")) catEmoji = "🍷";
         else if (drink.category.includes("Beer")) catEmoji = "🍺";
 
         card.innerHTML = `
