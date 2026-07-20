@@ -10,6 +10,16 @@ let appState = {
     itemsPerPage: 24
 };
 
+let originalVideoWrapperHTML = '';
+
+// Helper to get embed URL from watch URL
+function getEmbedUrl(watchUrl) {
+    if (!watchUrl) return '';
+    return watchUrl
+        .replace('/d/', '/e/')
+        .replace('/v/', '/e/');
+}
+
 // --- DOM ELEMENTS ---
 const elements = {
     sidebarCategoryList: document.getElementById('sidebarCategoryList'),
@@ -290,6 +300,9 @@ const categories = [
 
 // --- INIT APP FUNCTIONS ---
 function init() {
+    if (elements.videoWrapper) {
+        originalVideoWrapperHTML = elements.videoWrapper.innerHTML;
+    }
     setupCategoriesUI();
     renderDrinksGrid();
     setupEventListeners();
@@ -577,6 +590,13 @@ function loadDetailView(partNumber) {
     // Scroll window to top
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
+    // Restore video placeholder
+    if (elements.videoWrapper) {
+        elements.videoWrapper.innerHTML = originalVideoWrapperHTML;
+        elements.videoLink = document.getElementById('videoLink');
+        elements.videoCoverImage = document.getElementById('videoCoverImage');
+    }
+
     // Set simple details
     elements.detailTitle.textContent = drink.title;
     elements.detailPart.textContent = `Part ${drink.part}`;
@@ -798,6 +818,23 @@ function setupEventListeners() {
     elements.backToGridBtn.addEventListener('click', () => {
         location.hash = '';
     });
+
+    // Video Link click handler to play in-place
+    if (elements.videoWrapper) {
+        elements.videoWrapper.addEventListener('click', (e) => {
+            const link = e.target.closest('#videoLink');
+            if (link) {
+                e.preventDefault();
+                const watchUrl = link.getAttribute('href');
+                if (watchUrl) {
+                    const embedUrl = getEmbedUrl(watchUrl);
+                    if (embedUrl) {
+                        elements.videoWrapper.innerHTML = `<iframe id="videoIframe" src="${embedUrl}" frameborder="0" allowfullscreen></iframe>`;
+                    }
+                }
+            }
+        });
+    }
 
     // Window Hashchange listener
     window.addEventListener('hashchange', handleRouting);
