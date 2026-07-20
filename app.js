@@ -667,6 +667,7 @@ function loadDetailView(partNumber) {
     // Toggle views
     elements.gridView.style.display = 'none';
     elements.detailView.style.display = 'block';
+    document.body.classList.add('detail-active');
 }
 
 // --- ROUTING HANDLER ---
@@ -681,6 +682,7 @@ function handleRouting() {
         // Default Grid view
         elements.detailView.style.display = 'none';
         elements.gridView.style.display = 'block';
+        document.body.classList.remove('detail-active');
         // Reset video link href to avoid stale links in background
         if (elements.videoLink) {
             elements.videoLink.href = '';

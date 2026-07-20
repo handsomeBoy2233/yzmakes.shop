@@ -69,6 +69,21 @@ body {
     min-height: 100vh;
 }
 
+/* Detail View Active Adjustments */
+body.detail-active .app-sidebar {
+    display: none !important;
+}
+body.detail-active .main-layout {
+    margin-left: 0 !important;
+}
+body.detail-active .app-header {
+    display: none !important;
+}
+body.detail-active .download-video-btn,
+body.detail-active .favorite-toggle-btn {
+    display: none !important;
+}
+
 /* Sidebar Navigation */
 .app-sidebar {
     width: var(--sidebar-width);
