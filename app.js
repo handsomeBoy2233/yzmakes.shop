@@ -31,9 +31,8 @@ const elements = {
     detailFavToggleBtn: document.getElementById('detailFavToggleBtn'),
     favBtnText: document.getElementById('favBtnText'),
     downloadVideoBtn: document.getElementById('downloadVideoBtn'),
-    videoPlaceholder: document.getElementById('videoPlaceholder'),
+    videoLink: document.getElementById('videoLink'),
     videoCoverImage: document.getElementById('videoCoverImage'),
-    videoIframe: document.getElementById('videoIframe'),
     detailCategory: document.getElementById('detailCategory'),
     detailPart: document.getElementById('detailPart'),
     detailTitle: document.getElementById('detailTitle'),
@@ -587,31 +586,10 @@ function loadDetailView(partNumber) {
         elements.downloadVideoBtn.href = drink.url;
     }
 
-    // Reset video iframe and show cover image placeholder
-    elements.videoIframe.src = '';
-    elements.videoIframe.style.display = 'none';
-    
-    if (elements.videoPlaceholder && elements.videoCoverImage) {
+    // Set video cover image and hyperlink href
+    if (elements.videoLink && elements.videoCoverImage) {
         elements.videoCoverImage.src = `image/${encodeURIComponent(drink.image)}`;
-        elements.videoPlaceholder.style.display = 'flex';
-        
-        elements.videoPlaceholder.onclick = () => {
-            let videoUrl = drink.url;
-            if (videoUrl.includes('vinovo.to/d/')) {
-                videoUrl = videoUrl.replace('vinovo.to/d/', 'vinovo.to/e/');
-            }
-            
-            // Append autoplay so it plays immediately on click
-            if (videoUrl.includes('?')) {
-                videoUrl += '&autoplay=1';
-            } else {
-                videoUrl += '?autoplay=1';
-            }
-            
-            elements.videoPlaceholder.style.display = 'none';
-            elements.videoIframe.style.display = 'block';
-            elements.videoIframe.src = videoUrl;
-        };
+        elements.videoLink.href = drink.url;
     }
 
     // Check favorite status for bookmark button
@@ -703,8 +681,10 @@ function handleRouting() {
         // Default Grid view
         elements.detailView.style.display = 'none';
         elements.gridView.style.display = 'block';
-        // Reset video source to stop playing in background
-        elements.videoIframe.src = '';
+        // Reset video link href to avoid stale links in background
+        if (elements.videoLink) {
+            elements.videoLink.href = '';
+        }
         renderDrinksGrid();
     }
 }
