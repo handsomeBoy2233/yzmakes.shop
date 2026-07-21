@@ -43,7 +43,7 @@ const elements = {
     downloadVideoBtn: document.getElementById('downloadVideoBtn'),
     videoLink: document.getElementById('videoLink'),
     videoCoverImage: document.getElementById('videoCoverImage'),
-    videoWrapper: document.querySelector('.video-wrapper'),
+    videoWrapper: document.getElementById('zhicheng') || document.querySelector('.video-wrapper'),
     detailCategory: document.getElementById('detailCategory'),
     detailPart: document.getElementById('detailPart'),
     detailTitle: document.getElementById('detailTitle'),
@@ -593,6 +593,7 @@ function loadDetailView(partNumber) {
 
     // Restore video placeholder
     if (elements.videoWrapper) {
+        elements.videoWrapper.id = 'zhicheng';
         elements.videoWrapper.innerHTML = originalVideoWrapperHTML;
         elements.videoLink = document.getElementById('videoLink');
         elements.videoCoverImage = document.getElementById('videoCoverImage');
@@ -709,7 +710,7 @@ function handleRouting() {
         elements.gridView.style.display = 'block';
         document.body.classList.remove('detail-active');
         if (elements.videoWrapper) {
-            elements.videoWrapper.id = 'videoWrapper';
+            elements.videoWrapper.id = 'zhicheng';
         }
         // Reset video link href to avoid stale links in background
         if (elements.videoLink) {
@@ -820,22 +821,6 @@ function setupEventListeners() {
         location.hash = '';
     });
 
-    // Video Link click handler to play in-place
-    if (elements.videoWrapper) {
-        elements.videoWrapper.addEventListener('click', (e) => {
-            const link = e.target.closest('#videoLink');
-            if (link) {
-                e.preventDefault();
-                const watchUrl = link.getAttribute('href');
-                if (watchUrl) {
-                    const embedUrl = getEmbedUrl(watchUrl);
-                    if (embedUrl) {
-                        elements.videoWrapper.innerHTML = `<iframe id="videoIframe" src="${embedUrl}" frameborder="0" allowfullscreen></iframe>`;
-                    }
-                }
-            }
-        });
-    }
 
     // Window Hashchange listener
     window.addEventListener('hashchange', handleRouting);
