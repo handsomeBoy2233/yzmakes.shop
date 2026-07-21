@@ -10,16 +10,6 @@ let appState = {
     itemsPerPage: 24
 };
 
-let originalVideoWrapperHTML = '';
-
-// Helper to get embed URL from watch URL
-function getEmbedUrl(watchUrl) {
-    if (!watchUrl) return '';
-    return watchUrl
-        .replace('/d/', '/e/')
-        .replace('/v/', '/e/');
-}
-
 // --- DOM ELEMENTS ---
 const elements = {
     sidebarCategoryList: document.getElementById('sidebarCategoryList'),
@@ -301,9 +291,6 @@ const categories = [
 
 // --- INIT APP FUNCTIONS ---
 function init() {
-    if (elements.videoWrapper) {
-        originalVideoWrapperHTML = elements.videoWrapper.innerHTML;
-    }
     setupCategoriesUI();
     renderDrinksGrid();
     setupEventListeners();
@@ -591,14 +578,6 @@ function loadDetailView(partNumber) {
     // Scroll window to top
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    // Restore video placeholder
-    if (elements.videoWrapper) {
-        elements.videoWrapper.id = 'zhicheng';
-        elements.videoWrapper.innerHTML = originalVideoWrapperHTML;
-        elements.videoLink = document.getElementById('videoLink');
-        elements.videoCoverImage = document.getElementById('videoCoverImage');
-    }
-
     // Set simple details
     elements.detailTitle.textContent = drink.title;
     elements.detailPart.textContent = `Part ${drink.part}`;
@@ -691,9 +670,6 @@ function loadDetailView(partNumber) {
     elements.gridView.style.display = 'none';
     elements.detailView.style.display = 'block';
     document.body.classList.add('detail-active');
-    if (elements.videoWrapper) {
-        elements.videoWrapper.id = 'zhicheng';
-    }
 }
 
 // --- ROUTING HANDLER ---
@@ -709,9 +685,6 @@ function handleRouting() {
         elements.detailView.style.display = 'none';
         elements.gridView.style.display = 'block';
         document.body.classList.remove('detail-active');
-        if (elements.videoWrapper) {
-            elements.videoWrapper.id = 'zhicheng';
-        }
         // Reset video link href to avoid stale links in background
         if (elements.videoLink) {
             elements.videoLink.href = '';
