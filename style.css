@@ -760,9 +760,10 @@ body.detail-active .favorite-toggle-btn {
 .video-wrapper {
     position: relative;
     width: 100%;
-    aspect-ratio: 16 / 9;
-    border-radius: var(--border-radius-lg);
+    padding-bottom: 56.25%; /* 16:9 = 9/16 = 0.5625,老浏览器兼容写法 */
+    height: 0;
     overflow: hidden;
+    border-radius: var(--border-radius-lg);
     border: 1px solid var(--card-border);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
     background: #000;
