@@ -2796,7 +2796,7 @@ const DRINKS_DATA = [
     "part": 410,
     "image": "Part 410： Jungle Breeze Meet the Jungle Breeze  a fizzy twist on.jpg",
     "title": "Part 410： Jungle Breeze Meet the Jungle Breeze  a fizzy twist on",
-    "url": "https://luluvdo.com/iez52oytvlev",
+    "url": "https://luluvdo.com/e/iez52oytvlev",
     "category": "Fine Wines"
   }         
 
