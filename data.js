@@ -2789,7 +2789,7 @@ const DRINKS_DATA = [
     "part": 409,
     "image": "PART 409：The Manhattan “A smooth and boozy whiskey classic” 🥃✨ Welcom.jpg",
     "title": "PART 409：The Manhattan “A smooth and boozy whiskey classic” 🥃✨ Welcom",
-    "url": "https://playmogo.com/d/uvyqody6mu3j",
+    "url": "https://vidara.to/v/uLo5w2sFlvGqd",
     "category": "Fine Wines"
   },  
   {
