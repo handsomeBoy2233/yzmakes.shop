@@ -2789,14 +2789,14 @@ const DRINKS_DATA = [
     "part": 409,
     "image": "PART 409：The Manhattan “A smooth and boozy whiskey classic” 🥃✨ Welcom.jpg",
     "title": "PART 409：The Manhattan “A smooth and boozy whiskey classic” 🥃✨ Welcom",
-    "url": "https://vidara.to/e/SssoEVBKysmsF",
+    "url": "https://vidara.to/v/SssoEVBKysmsF",
     "category": "Fine Wines"
   },  
   {
     "part": 410,
     "image": "Part 410： Jungle Breeze Meet the Jungle Breeze  a fizzy twist on.jpg",
     "title": "Part 410： Jungle Breeze Meet the Jungle Breeze  a fizzy twist on",
-    "url": "https://luluvdo.com/e/iez52oytvlev",
+    "url": "https://luluvdo.com/v/iez52oytvlev",
     "category": "Fine Wines"
   }         
 
