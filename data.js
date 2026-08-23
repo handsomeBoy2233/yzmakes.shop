@@ -2754,14 +2754,14 @@ const DRINKS_DATA = [
     "part": 404,
     "image": "PART 404：Dragonfruit MojitoSweet, zesty,.jpg",
     "title": "PART 404：Dragonfruit MojitoSweet, zesty,",
-    "url": "https://luluvdo.com/0v2c8xyga9cq",
+    "url": "https://vidara.to/v/rVYDnt3gVx14M",
     "category": "Fine Wines"
   },  
   {
     "part": 405,
     "image": "Part 405： Raspberry Mojito Crush  A berry.jpg",
     "title": "Part 405： Raspberry Mojito Crush  A berry",
-    "url": "https://luluvdo.com/zppsmv1he90m",
+    "url": "https://vidara.to/v/G6EZgI73phdt9",
     "category": "Fine Wines"
   },    
   {
