@@ -2733,35 +2733,35 @@ const DRINKS_DATA = [
     "part": 401,
     "image": "Part 401：Devil’s Margarita A margarita with a dark side — bold teq.jpg",
     "title": "Part 401：Devil’s Margarita A margarita with a dark side — bold teq",
-    "url": "https://vidara.to/v/DLeI4Qw3CkYWc",
+    "url": "https://vidara.to/e/DLeI4Qw3CkYWc",
     "category": "Fine Wines"
   },
   {
     "part": 402,
     "image": "PART 402： Kiwi Pop Spritz A fizzy green dream with a fresh t.jpg",
     "title": "PART 402： Kiwi Pop Spritz A fizzy green dream with a fresh t",
-    "url": "https://vidara.to/v/f3SguU9dAMy7r",
+    "url": "https://vidara.to/e/f3SguU9dAMy7r",
     "category": "Fine Wines"
   },
   {
     "part": 403,
     "image": "PART 403： Electric Siren Bold. Blue. Buzzing with energy – meet.jpg",
     "title": "PART 403： Electric Siren Bold. Blue. Buzzing with energy – meet",
-    "url": "https://vidara.to/v/ABPq82zlJ8Z3N",
+    "url": "https://vidara.to/e/ABPq82zlJ8Z3N",
     "category": "Fine Wines"
   },
   {
     "part": 404,
     "image": "PART 404：Dragonfruit MojitoSweet, zesty,.jpg",
     "title": "PART 404：Dragonfruit MojitoSweet, zesty,",
-    "url": "https://vidara.to/v/wgf9Juw2MZg7H",
+    "url": "https://vidara.to/e/wgf9Juw2MZg7H",
     "category": "Fine Wines"
   },  
   {
     "part": 405,
     "image": "Part 405： Raspberry Mojito Crush  A berry.jpg",
     "title": "Part 405： Raspberry Mojito Crush  A berry",
-    "url": "https://vidara.to/v/VNc1cFUHeqG9S",
+    "url": "https://vidara.to/e/VNc1cFUHeqG9S",
     "category": "Fine Wines"
   },    
   {
