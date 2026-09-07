@@ -2768,35 +2768,35 @@ const DRINKS_DATA = [
     "part": 406,
     "image": "Part 406：Tequila Sunrise – A Cocktail as Beautiful as the Morning Sk.jpg",
     "title": "Part 406：Tequila Sunrise – A Cocktail as Beautiful as the Morning Sk",
-    "url": "https://playmate.to/embed/2VQAv1C5WXzmd",
+    "url": "https://playmate.to/embed/M2gjRVfHUFPh1",
     "category": "Fine Wines"
   },
    {
     "part": 407,
     "image": "Part 407： Cosmopolitan – A Timeless Classic with a Fruity Twist!.jpg",
     "title": "Part 407： Cosmopolitan – A Timeless Classic with a Fruity Twist!",
-    "url": "https://playmate.to/embed/Z9fbb9gVjIe3W",
+    "url": "https://playmate.to/embed/KIZHHRNN3ILbt",
     "category": "Fine Wines"
   },
   {
     "part": 408,
     "image": "PART 408：GIN & TONIC 🍋‍🟩🍋‍🟩 A timeless classic that proves less reall.jpg",
     "title": "PART 408：GIN & TONIC 🍋‍🟩🍋‍🟩 A timeless classic that proves less reall",
-    "url": "https://playmate.to/embed/rkXjJeQtvghB0",
+    "url": "https://playmate.to/embed/SuD2tZdZW6IQe",
     "category": "Fine Wines"
   },
   {
     "part": 409,
     "image": "PART 409：The Manhattan “A smooth and boozy whiskey classic” 🥃✨ Welcom.jpg",
     "title": "PART 409：The Manhattan “A smooth and boozy whiskey classic” 🥃✨ Welcom",
-    "url": "https://playmate.to/embed/Xc3bPMv74EyeS",
+    "url": "https://playmate.to/embed/aPxGb2YDYbnxx",
     "category": "Fine Wines"
   },  
   {
     "part": 410,
     "image": "Part 410： Jungle Breeze Meet the Jungle Breeze  a fizzy twist on.jpg",
     "title": "Part 410： Jungle Breeze Meet the Jungle Breeze  a fizzy twist on",
-    "url": "https://playmate.to/embed/Hp8ldoIrjCKad",
+    "url": "https://playmate.to/embed/01pFb5fbV81vp",
     "category": "Fine Wines"
   }         
 
