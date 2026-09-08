@@ -2803,175 +2803,175 @@ const DRINKS_DATA = [
     "part": 411,
     "image": "Part 411： 🌅 Tequila Sunrise – A Cocktail as Beautiful as the Morning Sk.jpg",
     "title": "Part 411： 🌅 Tequila Sunrise – A Cocktail as Beautiful as the Morning Sk",
-    "url": "https://vids.st/e/145570",
+    "url": "https://vids.st/v/145570",
     "category": "Fine Wines"
   },
   {
     "part": 412,
     "image": "Part 412： Mastering the Classic Daiquiri 🍹 A true Daiquiri is simple ye.jpg",
     "title": "Part 412： Mastering the Classic Daiquiri 🍹 A true Daiquiri is simple ye",
-    "url": "https://vids.st/e/145571",
+    "url": "https://vids.st/v/145571",
     "category": "Fine Wines"
   },
   {
     "part": 413,
     "image": "Part 413： 🍸 Cosmopolitan – A Timeless Classic with a Fruity Twist! 🍒✨ #.jpg",
     "title": "Part 413： 🍸 Cosmopolitan – A Timeless Classic with a Fruity Twist! 🍒✨ #",
-    "url": "https://vids.st/e/145572",
+    "url": "https://vids.st/v/145572",
     "category": "Fine Wines"
   },
   {
     "part": 414,
     "image": "Part 414： New York Sour 🥃 Elevate your cocktail repertoire with the New.jpg",
     "title": "Part 414： New York Sour 🥃 Elevate your cocktail repertoire with the New",
-    "url": "https://vids.st/e/145573",
+    "url": "https://vids.st/v/145573",
     "category": "Fine Wines"
   },
   {
     "part": 415,
     "image": "Part 415： Jungle Breeze 🍍🦜🍹✨🌿Meet the Jungle Breeze — a fizzy twist on.jpg",
     "title": "Part 415： Jungle Breeze 🍍🦜🍹✨🌿Meet the Jungle Breeze — a fizzy twist on",
-    "url": "https://vids.st/e/145574",
+    "url": "https://vids.st/v/145574",
     "category": "Fine Wines"
   },
   {
     "part": 416,
     "image": "Part 416： Royal Hawaiian 🍸 🍋 💜 🍍 (a.k.a. Princess Punch) “Gin goes tro.jpg",
     "title": "Part 416： Royal Hawaiian 🍸 🍋 💜 🍍 (a.k.a. Princess Punch) “Gin goes tro",
-    "url": "https://vids.st/e/145575",
+    "url": "https://vids.st/v/145575",
     "category": "Fine Wines"
   },
   {
     "part": 417,
     "image": "Part 417 – Mango Tango Margarita Tropical 🌴. Zesty 🍋. Just enough fire.jpg",
     "title": "Part 417 – Mango Tango Margarita Tropical 🌴. Zesty 🍋. Just enough fire",
-    "url": "https://vids.st/e/145576",
+    "url": "https://vids.st/v/145576",
     "category": "Fine Wines"
   },
   {
     "part": 418,
     "image": "Part 418： Malibu Berry Breeze 🥥🫐 🍍 🍡 Fruity, tropical, and smooth as a.jpg",
     "title": "Part 418： Malibu Berry Breeze 🥥🫐 🍍 🍡 Fruity, tropical, and smooth as a",
-    "url": "https://vids.st/e/145577",
+    "url": "https://vids.st/v/145577",
     "category": "Fine Wines"
   },
   {
     "part": 419,
     "image": "Part 419： 🥥🍍 Cottontail Sparkler 🍋 🍾 – A Light & Bubbly Easter Vibe! #.jpg",
     "title": "Part 419： 🥥🍍 Cottontail Sparkler 🍋 🍾 – A Light & Bubbly Easter Vibe! #",
-    "url": "https://vids.st/e/145578",
+    "url": "https://vids.st/v/145578",
     "category": "Fine Wines"
   },
   {
     "part": 420,
     "image": "Part 420： 🥒 Cucumber Gin Fizz 🍸 🍈 💦                    – Crisp, Cool,.jpg",
     "title": "Part 420： 🥒 Cucumber Gin Fizz 🍸 🍈 💦                    – Crisp, Cool,",
-    "url": "https://vids.st/e/145579",
+    "url": "https://vids.st/v/145579",
     "category": "Fine Wines"
   },
   {
     "part": 421,
     "image": "PART 421： Tropical Tikki Sunset 🍍🍊🌴🍒🍹 Let’s drift away to paradise wit.jpg",
     "title": "Part 421： Tropical Tikki Sunset 🍍🍊🌴🍒🍹 Let’s drift away to paradise wit",
-    "url": "https://vids.st/e/145580",
+    "url": "https://vids.st/v/145580",
     "category": "Fine Wines"
   },
   {
     "part": 422,
     "image": "Part 422： Devil’s Margarita 🔥🍷 A margarita with a dark side — bold teq.jpg",
     "title": "Part 422： Devil’s Margarita 🔥🍷 A margarita with a dark side — bold teq",
-    "url": "https://vids.st/e/145581",
+    "url": "https://vids.st/v/145581",
     "category": "Fine Wines"
   },
   {
     "part": 423,
     "image": "PART 423： Fresh Dragonfruit Daiquiri 🍸🌺🍈🍯❄️ Let’s blend tropical flair.jpg",
     "title": "Part 423： Fresh Dragonfruit Daiquiri 🍸🌺🍈🍯❄️ Let’s blend tropical flair",
-    "url": "https://vids.st/e/145582",
+    "url": "https://vids.st/v/145582",
     "category": "Fine Wines"
   },
   {
     "part": 424,
     "image": "PART 424： Kiwi Pop Spritz 🥝 🍋 🍯 🍸 🫧 A fizzy green dream with a fresh t.jpg",
     "title": "Part 424： Kiwi Pop Spritz 🥝 🍋 🍯 🍸 🫧 A fizzy green dream with a fresh t",
-    "url": "https://vids.st/e/145583",
+    "url": "https://vids.st/v/145583",
     "category": "Fine Wines"
   },
   {
     "part": 425,
     "image": "Part 425： Green Pineapple Para.jpg",
     "title": "Part 425： Green Pineapple Para",
-    "url": "https://vids.st/e/145584",
+    "url": "https://vids.st/v/145584",
     "category": "Fine Wines"
   },
   {
     "part": 426,
     "image": "PART 426： Lava Lady.jpg",
     "title": "Part 426： Lava Lady",
-    "url": "https://vids.st/e/145585",
+    "url": "https://vids.st/v/145585",
     "category": "Fine Wines"
   },
   {
     "part": 427,
     "image": "PART 427： Hibiscus Margarita 🌺.jpg",
     "title": "Part 427： Hibiscus Margarita 🌺",
-    "url": "https://vids.st/e/145586",
+    "url": "https://vids.st/v/145586",
     "category": "Fine Wines"
   },
   {
     "part": 428,
     "image": "PART 428： Blueberry Coconut Mar.jpg",
     "title": "Part 428： Blueberry Coconut Mar",
-    "url": "https://vids.st/e/145587",
+    "url": "https://vids.st/v/145587",
     "category": "Fine Wines"
   },
   {
     "part": 429,
     "image": "PART 429： Strawberry Mojito 🍓🌿.jpg",
     "title": "Part 429： Strawberry Mojito 🍓🌿",
-    "url": "https://vids.st/e/145588",
+    "url": "https://vids.st/v/145588",
     "category": "Fine Wines"
   },
   {
     "part": 430,
     "image": "PART 430： Aurora Bur.jpg",
     "title": "Part 430： Aurora Bur",
-    "url": "https://vids.st/e/145589",
+    "url": "https://vids.st/v/145589",
     "category": "Fine Wines"
   },
   {
     "part": 431,
     "image": "PART 431： Vodka Plum Mojito 💜🍸🍇🌿.jpg",
     "title": "Part 431： Vodka Plum Mojito 💜🍸🍇🌿",
-    "url": "https://vids.st/e/145590",
+    "url": "https://vids.st/v/145590",
     "category": "Fine Wines"
   },
   {
     "part": 432,
     "image": "Part 432： Hurricane – The.jpg",
     "title": "Part 432： Hurricane – The",
-    "url": "https://vids.st/e/145591",
+    "url": "https://vids.st/v/145591",
     "category": "Fine Wines"
   },
   {
     "part": 433,
     "image": "Part 433： Velvet Kiss –.jpg",
     "title": "Part 433： Velvet Kiss",
-    "url": "https://vids.st/e/145592",
+    "url": "https://vids.st/v/145592",
     "category": "Fine Wines"
   },
   {
     "part": 434,
     "image": "PART 434： Midnight Mirage 🌌🍋🥃.jpg",
     "title": "Part 434： Midnight Mirage 🌌🍋🥃",
-    "url": "https://vids.st/e/145593",
+    "url": "https://vids.st/v/145593",
     "category": "Fine Wines"
   },
   {
     "part": 435,
     "image": "PART 435： Midori Sour 🍈💚⚡ (Neon Melon – Sweet,.jpg",
     "title": "Part 435： Midori Sour 🍈💚⚡ (Neon Melon – Sweet,",
-    "url": "https://vids.st/e/145594",
+    "url": "https://vids.st/v/145594",
     "category": "Fine Wines"
   }
 
