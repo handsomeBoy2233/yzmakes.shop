@@ -3015,6 +3015,83 @@ const DRINKS_DATA = [
     "title": "Part 441： Jungle Breeze 🍍🦜🍹✨🌿Meet the Jungle Breeze — a fizzy twist on",
     "url": "https://luluvdo.com/e/7q30yb1rxzcf",
     "category": "Fine Wines"
-  }
+  },
+    {
+    "part": 442,
+    "image": "Part 442： 🌅 Tequila Sunrise – A Cocktail as Beautiful as the Morning Sk.jpg",
+    "title": "Part 442： 🌅 Tequila Sunrise – A Cocktail as Beautiful as the Morning Sk",
+    "url": "https://vixeo.io/e/5RhznxyePCFp",
+    "category": "Fine Wines"
+  },
+  {
+    "part": 443,
+    "image": "Part 443： Mastering the Classic Daiquiri 🍹 A true Daiquiri is simple ye.jpg",
+    "title": "Part 443： Mastering the Classic Daiquiri 🍹 A true Daiquiri is simple ye",
+    "url": "https://vixeo.io/e/xWzZ3wGNJFIU",
+    "category": "Fine Wines"
+  },
+  {
+    "part": 444,
+    "image": "Part 444： 🍸 Cosmopolitan – A Timeless Classic with a Fruity Twist! 🍒✨ #.jpg",
+    "title": "Part 444： 🍸 Cosmopolitan – A Timeless Classic with a Fruity Twist! 🍒✨ #",
+    "url": "https://vixeo.io/e/foonH7f8FaXN",
+    "category": "Fine Wines"
+  },
+  {
+    "part": 445,
+    "image": "Part 445： New York Sour 🥃 Elevate your cocktail repertoire with the New.jpg",
+    "title": "Part 445： New York Sour 🥃 Elevate your cocktail repertoire with the New",
+    "url": "https://vixeo.io/e/pdLdQaVvJdUv",
+    "category": "Fine Wines"
+  },
+  {
+    "part": 446,
+    "image": "Part 446： Jungle Breeze 🍍🦜🍹✨🌿Meet the Jungle Breeze — a fizzy twist on.jpg",
+    "title": "Part 446： Jungle Breeze 🍍🦜🍹✨🌿Meet the Jungle Breeze — a fizzy twist on",
+    "url": "https://vixeo.io/e/QSdQ92Qs1OlC",
+    "category": "Fine Wines"
+  },
+  {
+    "part": 447,
+    "image": "Part 447： Royal Hawaiian 🍸 🍋 💜 🍍 (a.k.a. Princess Punch) “Gin goes tro.jpg",
+    "title": "Part 447： Royal Hawaiian 🍸 🍋 💜 🍍 (a.k.a. Princess Punch) “Gin goes tro",
+    "url": "https://vixeo.io/e/tBvo3effXu87",
+    "category": "Fine Wines"
+  },
+  {
+    "part": 448,
+    "image": "Part 448 – Mango Tango Margarita Tropical 🌴. Zesty 🍋. Just enough fire.jpg",
+    "title": "Part 448 – Mango Tango Margarita Tropical 🌴. Zesty 🍋. Just enough fire",
+    "url": "https://vixeo.io/e/Ys6KQeodsOem",
+    "category": "Fine Wines"
+  },
+  {
+    "part": 449,
+    "image": "Part 449： Malibu Berry Breeze 🥥🫐 🍍 🍡 Fruity, tropical, and smooth as a.jpg",
+    "title": "Part 449： Malibu Berry Breeze 🥥🫐 🍍 🍡 Fruity, tropical, and smooth as a",
+    "url": "https://vixeo.io/e/gYVSW62xa1yw",
+    "category": "Fine Wines"
+  },
+  {
+    "part": 450,
+    "image": "Part 450： 🥥🍍 Cottontail Sparkler 🍋 🍾 – A Light & Bubbly Easter Vibe! #.jpg",
+    "title": "Part 450： 🥥🍍 Cottontail Sparkler 🍋 🍾 – A Light & Bubbly Easter Vibe! #",
+    "url": "https://vixeo.io/e/oE5zwTHKQs4W",
+    "category": "Fine Wines"
+  },
+  {
+    "part": 451,
+    "image": "Part 451： 🥒 Cucumber Gin Fizz 🍸 🍈 💦                    – Crisp, Cool,.jpg",
+    "title": "Part 451： 🥒 Cucumber Gin Fizz 🍸 🍈 💦                    – Crisp, Cool,",
+    "url": "https://vixeo.io/e/ZgKDub6e3UOm",
+    "category": "Fine Wines"
+  },
+  {
+    "part": 452,
+    "image": "PART 452： Tropical Tikki Sunset 🍍🍊🌴🍒🍹 Let’s drift away to paradise wit.jpg",
+    "title": "PART 452： Tropical Tikki Sunset 🍍🍊🌴🍒🍹 Let’s drift away to paradise wit",
+    "url": "https://vixeo.io/e/XsWquoPBYjrf",
+    "category": "Fine Wines"
+  }  
 
 ];
