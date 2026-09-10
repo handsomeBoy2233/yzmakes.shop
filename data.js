@@ -2733,77 +2733,77 @@ const DRINKS_DATA = [
     "part": 401,
     "image": "Part 401：Devil’s Margarita A margarita with a dark side — bold teq.jpg",
     "title": "Part 401：Devil’s Margarita A margarita with a dark side — bold teq",
-    "url": "https://voe.sx/e/bwizhs9kv6ci",
+    "url": "https://streamtape.com/e/0zArvo0DZ6FbxxV/Part_1_Tequila_Sunrise.mp4",
     "category": "Fine Wines"
   },
   {
     "part": 402,
     "image": "PART 402： Kiwi Pop Spritz A fizzy green dream with a fresh t.jpg",
     "title": "PART 402： Kiwi Pop Spritz A fizzy green dream with a fresh t",
-    "url": "https://voe.sx/e/8cejtdrckngi",
+    "url": "https://streamtape.com/e/v9m2m4X39pUbM8/Part_2_Classic_Daiquiri.mp4",
     "category": "Fine Wines"
   },
   {
     "part": 403,
     "image": "PART 403： Electric Siren Bold. Blue. Buzzing with energy – meet.jpg",
     "title": "PART 403： Electric Siren Bold. Blue. Buzzing with energy – meet",
-    "url": "https://voe.sx/e/tahiv6tjilqk",
+    "url": "https://streamtape.com/e/v2pLPQqajPCLae/Part_3_Cosmopolitan.mp4",
     "category": "Fine Wines"
   },
   {
     "part": 404,
     "image": "PART 404：Dragonfruit MojitoSweet, zesty,.jpg",
     "title": "PART 404：Dragonfruit MojitoSweet, zesty,",
-    "url": "https://voe.sx/e/tvwybsgwjqav",
+    "url": "https://streamtape.com/e/oLBOl3jRyjCJVqZ/Part_9_Jungle_Breeze.mp4",
     "category": "Fine Wines"
   },
   {
     "part": 405,
     "image": "Part 405： Raspberry Mojito Crush  A berry.jpg",
     "title": "Part 405： Raspberry Mojito Crush  A berry",
-    "url": "https://voe.sx/e/nw3emrymoibt",
+    "url": "https://streamtape.com/e/OqPjgGgQ21CZRJL/Part_8_New_York_Sour.mp4",
     "category": "Fine Wines"
   },
   {
     "part": 406,
     "image": "Part 406：Tequila Sunrise – A Cocktail as Beautiful as the Morning Sk.jpg",
     "title": "Part 406：Tequila Sunrise – A Cocktail as Beautiful as the Morning Sk",
-    "url": "https://voe.sx/e/xjdcrh2edytd",
+    "url": "https://streamtape.com/e/BYaLB4zD88hy4PL/Part_15_Royal_Hawaiian.mp4",
     "category": "Fine Wines"
   },
   {
     "part": 407,
     "image": "Part 407： Cosmopolitan – A Timeless Classic with a Fruity Twist!.jpg",
     "title": "Part 407： Cosmopolitan – A Timeless Classic with a Fruity Twist!",
-    "url": "https://voe.sx/e/9tdrrzyux9w6",
+    "url": "https://streamtape.com/e/vwJv09blW9cDep/Part_21_Malibu_Berry_Breeze.mp4",
     "category": "Fine Wines"
   },
   {
     "part": 408,
     "image": "PART 408：GIN & TONIC 🍋‍🟩🍋‍🟩 A timeless classic that proves less reall.jpg",
     "title": "PART 408：GIN & TONIC 🍋‍🟩🍋‍🟩 A timeless classic that proves less reall",
-    "url": "https://voe.sx/e/9ut7cavtlpn1",
+    "url": "https://streamtape.com/e/RLKDpW86aKfLev/Part_18_Mango_Tango_Margarita.mp4",
     "category": "Fine Wines"
   },
   {
     "part": 409,
     "image": "PART 409：The Manhattan “A smooth and boozy whiskey classic” 🥃✨ Welcom.jpg",
     "title": "PART 409：The Manhattan “A smooth and boozy whiskey classic” 🥃✨ Welcom",
-    "url": "https://voe.sx/e/yyoavkzs04ht",
+    "url": "https://streamtape.com/e/APmG27ZjJmTX8M4/Part_24_Cottontail_Sparkler.mp4",
     "category": "Fine Wines"
   },
   {
     "part": 410,
     "image": "Part 410： Jungle Breeze Meet the Jungle Breeze  a fizzy twist on.jpg",
     "title": "Part 410： Jungle Breeze Meet the Jungle Breeze  a fizzy twist on",
-    "url": "https://voe.sx/e/f6wxlmealll8",
+    "url": "https://streamtape.com/e/wlqXlPG0XoUJXo0/Part_25_Cucumber_Gin_Fizz.mp4",
     "category": "Fine Wines"
   },
   {
     "part": 411,
     "image": "Part 411： 🌅 Tequila Sunrise – A Cocktail as Beautiful as the Morning Sk.jpg",
     "title": "Part 411： 🌅 Tequila Sunrise – A Cocktail as Beautiful as the Morning Sk",
-    "url": "https://voe.sx/e/0vy8lmazrlf3",
+    "url": "https://streamtape.com/e/9Bmyr2Zk8Bhadq8/Part_31_Tropical_Tikki_Sunset.mp4",
     "category": "Fine Wines"
   },
   {
