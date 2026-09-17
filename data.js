@@ -2992,31 +2992,31 @@ const DRINKS_DATA = [
     "part": 438,
     "image": "Part 438： 🍸 Cosmopolitan – A Timeless Classic with a Fruity Twist! 🍒✨ #.jpg",
     "title": "Part 438： 🍸 Cosmopolitan – A Timeless Classic with a Fruity Twist! 🍒✨ #",
-    "url": "https://luluvdo.com/e/w2kehl1p5u1q",
+    "url": "https://vixeo.io/e/RewraXwgPR4P",
     "category": "Fine Wines"
   },
   {
     "part": 439,
     "image": "PART 439： Tropical Tikki Sunset 🍍🍊🌴🍒🍹 Let’s drift away to paradise wit.jpg",
     "title": "PART 439： Tropical Tikki Sunset 🍍🍊🌴🍒🍹 Let’s drift away to paradise wit",
-    "url": "https://luluvdo.com/e/nsmog5du77x7",
+    "url": "https://vixeo.io/e/tWQ2I3VVlgQt",
     "category": "Fine Wines"
   },
   {
     "part": 440,
     "image": "Part 440： New York Sour 🥃 Elevate your cocktail repertoire with the New.jpg",
     "title": "Part 440： New York Sour 🥃 Elevate your cocktail repertoire with the New",
-    "url": "https://luluvdo.com/e/iunzgqtjzxh6",
+    "url": "https://vixeo.io/e/1OsUQ5ZdYIZb",
     "category": "Fine Wines"
   },
   {
     "part": 441,
     "image": "Part 441： Jungle Breeze 🍍🦜🍹✨🌿Meet the Jungle Breeze — a fizzy twist on.jpg",
     "title": "Part 441： Jungle Breeze 🍍🦜🍹✨🌿Meet the Jungle Breeze — a fizzy twist on",
-    "url": "https://luluvdo.com/e/7q30yb1rxzcf",
+    "url": "https://vixeo.io/e/h3viTcbikWqR",
     "category": "Fine Wines"
   },
-    {
+  {
     "part": 442,
     "image": "Part 442： 🌅 Tequila Sunrise – A Cocktail as Beautiful as the Morning Sk.jpg",
     "title": "Part 442： 🌅 Tequila Sunrise – A Cocktail as Beautiful as the Morning Sk",
