@@ -4,216 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- popads -->
     
-    <title>Nectar & Vine | Premium Cocktail & Wine Video Portal</title>
-    <meta name="description" content="Explore a luxury collection of 435 premium cocktail recipes, mixology videos, and wine craft tutorials. Level up your home bar.">
+
+    
+    <meta name="ppck-ver" content="84fa930ecc916b69605d1ee1caa6d6b3" />
+    
+
+    <title>VelvetStream HD - Ultra Widescreen Cinema Portal & 1000+ Asian Stream</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Main Stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="app-container">
-        <!-- Sidebar Navigation (Desktop) -->
-        <aside class="app-sidebar" id="appSidebar">
-            <div class="sidebar-header">
-                <div class="logo">
-                    <span class="logo-icon">🍷</span>
-                    <span class="logo-text">NECTAR & VINE</span>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="brand-logo">
+                    <span class="logo-icon"><i class="fa-solid fa-play"></i></span>
+                    <span>Velvet<span class="logo-accent">Stream</span></span>
+                </a>
+
+                <div class="header-search">
+                    <div class="search-input-wrapper">
+                        <input type="text" id="searchInput" placeholder="Search 1000+ ultra HD videos across 35+ categories...">
+                        <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+
+                <div class="header-badges">
+                    <span class="badge-4k"><i class="fa-solid fa-bolt"></i> 4K ULTRA</span>
+                    <span class="badge-18">18+ ADULT</span>
                 </div>
             </div>
-            
-            <nav class="sidebar-nav">
-                <div class="nav-section-title">Collections</div>
-                <ul class="category-list" id="sidebarCategoryList">
-                    <!-- Loaded dynamically via app.js -->
-                </ul>
-            </nav>
-            
-            <div class="sidebar-footer">
-                <div class="stats-card">
-                    <div class="stat-item">
-                        <span class="stat-number">435</span>
-                        <span class="stat-label">Episodes</span>
-                    </div>
-                    <div class="stat-divider"></div>
-                    <div class="stat-item">
-                        <span class="stat-number" id="statsCategoryCount">16</span>
-                        <span class="stat-label">Categories</span>
-                    </div>
-                </div>
-            </div>
-        </aside>
-
-        <!-- Main Content Area -->
-        <div class="main-layout">
-            <!-- Top Header & Search Bar -->
-            <header class="app-header">
-                <!-- Mobile Navigation Header -->
-                <div class="mobile-logo-bar">
-                    <div class="logo">
-                        <span class="logo-icon">🍷</span>
-                        <span class="logo-text">NECTAR & VINE</span>
-                    </div>
-                    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation">
-                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="3" y1="12" x2="21" y2="12"></line>
-                            <line x1="3" y1="6" x2="21" y2="6"></line>
-                            <line x1="3" y1="18" x2="21" y2="18"></line>
-                        </svg>
-                    </button>
-                </div>
-
-                <div class="header-search-row">
-                    <div class="search-box-wrapper">
-                        <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="11" cy="11" r="8"></circle>
-                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                        </svg>
-                        <input type="text" id="searchInput" placeholder="Search by name, part number (e.g. 100), or keywords..." autocomplete="off">
-                        <button class="clear-search-btn" id="clearSearchBtn" aria-label="Clear Search">
-                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <line x1="18" y1="6" x2="6" y2="18"></line>
-                                <line x1="6" y1="6" x2="18" y2="18"></line>
-                            </svg>
-                        </button>
-                    </div>
-
-                    <div class="header-actions">
-                        <button class="favorites-filter-btn" id="favFilterBtn" title="Show Bookmarked Drinks">
-                            <svg class="heart-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-                            </svg>
-                            <span>Favorites</span>
-                            <span class="fav-count-badge" id="favBadge">0</span>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Mobile Horizontal Category Scroll -->
-                <div class="mobile-categories-wrapper">
-                    <div class="mobile-categories-scroll" id="mobileCategoriesScroll">
-                        <!-- Loaded dynamically via app.js -->
-                    </div>
-                </div>
-            </header>
-
-            <!-- Grid Content View -->
-            <main class="content-body" id="gridView">
-                <div class="results-header">
-                    <h1 class="results-title" id="resultsTitle">All Creations</h1>
-                    <span class="results-count" id="resultsCount">0 items</span>
-                </div>
-
-                <!-- Grid -->
-                <div class="drinks-grid" id="drinksGrid">
-                    <!-- Cards will be injected dynamically -->
-                </div>
-
-                <!-- Pagination Controls -->
-                <div class="pagination-row" id="paginationControls"></div>
-
-                <!-- Empty State -->
-                <div class="empty-state" id="emptyState" style="display: none;">
-                    <span class="empty-icon">🥂</span>
-                    <h3>No Drinks Found</h3>
-                    <p>Try checking your spelling or clear some filters to discover more cocktails.</p>
-                    <button class="reset-filters-btn" id="resetFiltersBtn">Reset Search & Filters</button>
-                </div>
-            </main>
-
-            <!-- Detail View Overlay/Container -->
-            <section class="detail-container" id="detailView" style="display: none;">
-                <div class="detail-back-row">
-                    <button class="back-btn" id="backToGridBtn">
-                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="19" y1="12" x2="5" y2="12"></line>
-                            <polyline points="12 19 5 12 12 5"></polyline>
-                        </svg>
-                        <span>Back to Collection</span>
-                    </button>
-                    <div style="display: flex; gap: 12px; align-items: center;">
-                        <a id="downloadVideoBtn" class="download-video-btn" href="" target="_blank" style="text-decoration: none;">
-                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;">
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                                <polyline points="7 10 12 15 17 10"></polyline>
-                                <line x1="12" y1="15" x2="12" y2="3"></line>
-                            </svg>
-                            <span>Download Video</span>
-                        </a>
-                        <button class="favorite-toggle-btn" id="detailFavToggleBtn">
-                            <svg class="heart-icon-filled" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-                            </svg>
-                            <span id="favBtnText">Bookmark</span>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="detail-grid">
-                    <!-- Left: Video Panel -->
-                    <div class="video-panel">
-                        <div id="zhicheng" class="video-wrapper">
-                            <a id="videoLink" href="" class="video-placeholder">
-                                <img id="videoCoverImage" class="video-cover-image" src="" alt="Video Cover">
-                                <div class="play-trigger-btn">
-                                    <svg viewBox="0 0 24 24" width="68" height="68" fill="currentColor">
-                                        <circle cx="12" cy="12" r="10" fill="rgba(0,0,0,0.6)" stroke="#c5a880" stroke-width="1.5"></circle>
-                                        <polygon points="10 8 16 12 10 16" fill="#f5f2f4"></polygon>
-                                    </svg>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="video-status-tip">
-                            <span class="pulse-dot"></span> Powered by high-speed hosting
-                        </div>
-                    </div>
-
-                    <!-- Right: Info Panel -->
-                    <div class="info-panel">
-                        <div class="drink-meta-row">
-                            <span class="detail-category-tag" id="detailCategory">TROPICAL</span>
-                            <span class="detail-part-badge" id="detailPart">Part 12</span>
-                        </div>
-                        
-                        <h2 class="detail-title" id="detailTitle">Ocean Goblet</h2>
-                        
-                        <div class="recipe-section">
-                            <h3 class="section-title">Ingredients</h3>
-                            <ul class="ingredients-list" id="detailIngredients">
-                                <!-- Loaded dynamically -->
-                            </ul>
-                        </div>
-
-                        <div class="recipe-section">
-                            <h3 class="section-title">Mixology Instructions</h3>
-                            <ol class="instructions-list" id="detailInstructions">
-                                <!-- Loaded dynamically -->
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Related Drinks Row -->
-                <div class="related-section">
-                    <h3 class="related-title">More from <span id="relatedCategoryName">Tropical</span></h3>
-                    <div class="related-carousel" id="relatedCarousel">
-                        <!-- Loaded dynamically -->
-                    </div>
-                </div>
-            </section>
         </div>
+    </header>
+
+    <!-- Main Section Container -->
+    <div class="container">       
+        <!-- Horizontal Category Pill Slider -->
+        <section class="category-filter-section">
+            <div class="category-scroll-container" id="tagCloud">
+                <button class="cat-pill active" data-filter="all"><i class="fa-solid fa-compass"></i> All Stream</button>
+                <button class="cat-pill" data-filter="blowjob">Blowjob</button>
+                <button class="cat-pill" data-filter="big-tits">Big Tits</button>
+                <button class="cat-pill" data-filter="doggystyle">Doggystyle</button>
+                <button class="cat-pill" data-filter="housewife">Housewife</button>
+                <button class="cat-pill" data-filter="milf">MILF</button>
+                <button class="cat-pill" data-filter="korean">Korean</button>
+                <button class="cat-pill" data-filter="ass">Ass</button>
+                <button class="cat-pill" data-filter="toys">Toys</button>
+                <button class="cat-pill" data-filter="debut">Debut</button>
+                <button class="cat-pill" data-filter="threesome">Threesome</button>
+                <button class="cat-pill" data-filter="bareback">Bareback</button>
+                <button class="cat-pill" data-filter="cosplay">Cosplay</button>
+                <button class="cat-pill" data-filter="mature">Mature</button>
+                <button class="cat-pill" data-filter="uncensored">Uncensored</button>
+                <button class="cat-pill" data-filter="amateur">Amateur</button>
+                <button class="cat-pill" data-filter="maid">Maid</button>
+                <button class="cat-pill" data-filter="cumshot">Cumshot</button>
+                <button class="cat-pill" data-filter="anal">Anal</button>
+                <button class="cat-pill" data-filter="massage">Massage</button>
+                <button class="cat-pill" data-filter="facial">Facial</button>
+                <button class="cat-pill" data-filter="chinese">Chinese</button>
+                <button class="cat-pill" data-filter="smooth">Smooth</button>
+                <button class="cat-pill" data-filter="classroom">Classroom</button>
+                <button class="cat-pill" data-filter="student">Student</button>
+                <button class="cat-pill" data-filter="hardcore">Hardcore</button>
+                <button class="cat-pill" data-filter="pov">POV</button>
+                <button class="cat-pill" data-filter="creampie">Creampie</button>
+                <button class="cat-pill" data-filter="asian">Asian</button>
+                <button class="cat-pill" data-filter="thai">Thai</button>
+                <button class="cat-pill" data-filter="swapping">Swapping</button>
+                <button class="cat-pill" data-filter="teacher">Teacher</button>
+                <button class="cat-pill" data-filter="stepsister">Stepsister</button>
+                <button class="cat-pill" data-filter="voyeur">Voyeur</button>
+                <button class="cat-pill" data-filter="couples">Couples</button>
+                <button class="cat-pill" data-filter="office">Office</button>
+                <button class="cat-pill" data-filter="outdoor">Outdoor</button>
+                <button class="cat-pill" data-filter="dormitory">Dormitory</button>
+                <button class="cat-pill" data-filter="japanese">Japanese AV</button>
+                <button class="cat-pill" data-filter="hotel">Hotel</button>
+            </div>
+        </section>
+
+        <!-- Section Header -->
+        <div class="grid-header">
+            <div class="grid-title-group">
+                <h2 id="categoryHeading">Trending HD Videos</h2>
+                <span class="grid-count" id="videoTotalCount">Showing 0 videos</span>
+            </div>
+            <select id="sortSelect" class="sort-select">
+                <option value="popular">Most Popular</option>
+                <option value="latest">Newest First</option>
+            </select>
+        </div>
+
+        <!-- 4-Column Video Card Grid -->
+        <div class="large-card-grid" id="mediaGrid">
+            <!-- Dynamically rendered paginated video cards -->
+        </div>
+
+
+        <!-- Pagination Controls -->
+        <div class="pagination-wrapper" id="paginationControls">
+            <!-- Pagination buttons -->
+        </div>
+
     </div>
 
-    <!-- Mobile Navigation Drawer Overlay -->
-    <div class="drawer-overlay" id="drawerOverlay"></div>
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 VelvetStream HD. All rights reserved. 18+ Adult Video Aggregator with 35+ Categories.</p>
+        </div>
+    </footer>
 
-    <!-- Data and App Scripts -->
-    <script src="data.js"></script>
-    <script src="app.js"></script>
-
-
+    <script src="videos_data.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
