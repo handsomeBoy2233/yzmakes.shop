@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Watch Video - VelvetVision HD Cinema</title>
+    <title>Watch Video - VelvetStream HD</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- FontAwesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- FontAwesome：异步加载，不阻塞首屏 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,8 +19,8 @@
         <div class="container">
             <div class="header-inner">
                 <a href="index.html" class="brand-logo">
-                    <span class="logo-box"><i class="fa-solid fa-play"></i></span>
-                    <span>NEXUS<span class="logo-accent">STREAM</span></span>
+                    <span class="logo-icon"><i class="fa-solid fa-play"></i></span>
+                    <span>Velvet<span class="logo-accent">Stream</span></span>
                 </a>
 
                 <a href="index.html" class="btn-back-home">
@@ -37,7 +37,7 @@
             <!-- Video Player Main Card -->
             <div class="player-main-card">
                 
-                <div class="video-embed-wrapper yy" id="yy">
+                <div class="video-embed-wrapper" id="playerWrap">
                     <!-- iFrame dynamically injected by player.js -->
                 </div>
 
@@ -60,14 +60,20 @@
     </main>
 
 
-    <!-- Footer -->
+        <!-- Footer -->
     <footer class="site-footer">
         <div class="container">
-            <p>&copy; 2026 VelvetVision HD. All rights reserved. 18+ Adult Video Aggregator.</p>
+            <div class="footer-bottom-bar">
+                <p>&copy; 2026 VelvetStream HD. All rights reserved. 18+ Adult Video Aggregator.</p>
+                <p class="compliance-note">
+                    <i class="fa-solid fa-shield-halved"></i> 18+ Restricted: All models are 18 years of age or older at the time of production.
+                </p>
+            </div>
         </div>
     </footer>
 
-    <script src="videos_data.js"></script>
-    <script src="player.js"></script>
+    <!-- defer：不阻塞解析 -->
+    <script src="videos_player.js" defer></script>
+    <script src="player.js" defer></script>
 </body>
 </html>

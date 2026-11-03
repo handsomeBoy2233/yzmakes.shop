@@ -14,10 +14,13 @@
     <title>VelvetStream HD - Ultra Widescreen Cinema Portal & 1000+ Asian Stream</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- 首屏缩略图来源，提前建连 -->
+    <link rel="preconnect" href="https://thumb-cdn77.xnxx-cdn.com" crossorigin>
+    <link rel="dns-prefetch" href="https://thumbs-gcore.xnxx-cdn.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- FontAwesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- FontAwesome Icons：异步加载，不阻塞首屏 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -49,7 +52,7 @@
     <!-- Main Section Container -->
     <div class="container">       
         <!-- Horizontal Category Pill Slider -->
-        <section class="category-filter-section">
+        <section class="category-filter-section" id="categories">
             <div class="category-scroll-container" id="tagCloud">
                 <button class="cat-pill active" data-filter="all"><i class="fa-solid fa-compass"></i> All Stream</button>
                 <button class="cat-pill" data-filter="blowjob">Blowjob</button>
@@ -59,10 +62,8 @@
                 <button class="cat-pill" data-filter="milf">MILF</button>
                 <button class="cat-pill" data-filter="korean">Korean</button>
                 <button class="cat-pill" data-filter="ass">Ass</button>
-                <button class="cat-pill" data-filter="toys">Toys</button>
                 <button class="cat-pill" data-filter="debut">Debut</button>
                 <button class="cat-pill" data-filter="threesome">Threesome</button>
-                <button class="cat-pill" data-filter="bareback">Bareback</button>
                 <button class="cat-pill" data-filter="cosplay">Cosplay</button>
                 <button class="cat-pill" data-filter="mature">Mature</button>
                 <button class="cat-pill" data-filter="uncensored">Uncensored</button>
@@ -73,24 +74,14 @@
                 <button class="cat-pill" data-filter="massage">Massage</button>
                 <button class="cat-pill" data-filter="facial">Facial</button>
                 <button class="cat-pill" data-filter="chinese">Chinese</button>
-                <button class="cat-pill" data-filter="smooth">Smooth</button>
-                <button class="cat-pill" data-filter="classroom">Classroom</button>
                 <button class="cat-pill" data-filter="student">Student</button>
-                <button class="cat-pill" data-filter="hardcore">Hardcore</button>
                 <button class="cat-pill" data-filter="pov">POV</button>
                 <button class="cat-pill" data-filter="creampie">Creampie</button>
                 <button class="cat-pill" data-filter="asian">Asian</button>
                 <button class="cat-pill" data-filter="thai">Thai</button>
-                <button class="cat-pill" data-filter="swapping">Swapping</button>
-                <button class="cat-pill" data-filter="teacher">Teacher</button>
-                <button class="cat-pill" data-filter="stepsister">Stepsister</button>
-                <button class="cat-pill" data-filter="voyeur">Voyeur</button>
-                <button class="cat-pill" data-filter="couples">Couples</button>
                 <button class="cat-pill" data-filter="office">Office</button>
                 <button class="cat-pill" data-filter="outdoor">Outdoor</button>
-                <button class="cat-pill" data-filter="dormitory">Dormitory</button>
                 <button class="cat-pill" data-filter="japanese">Japanese AV</button>
-                <button class="cat-pill" data-filter="hotel">Hotel</button>
             </div>
         </section>
 
@@ -119,14 +110,60 @@
 
     </div>
 
-    <!-- Footer -->
+    <!-- Enhanced Multi-Column Compliance Footer -->
     <footer class="site-footer">
         <div class="container">
-            <p>&copy; 2024 VelvetStream HD. All rights reserved. 18+ Adult Video Aggregator with 35+ Categories.</p>
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <div class="footer-brand">
+                        <span class="logo-icon-sm"><i class="fa-solid fa-play"></i></span>
+                        <span>Velvet<span class="logo-accent">Stream</span> HD</span>
+                    </div>
+                    <p class="footer-desc">
+                        VelvetStream HD is a high-speed Asian &amp; Japanese AV video aggregation portal indexing ultra-definition adult cinema streams. All content is hosted by third-party providers.
+                    </p>
+                    <div class="footer-cert-tags">
+                        <span class="cert-tag"><i class="fa-solid fa-lock"></i> SSL Secured</span>
+                        <span class="cert-tag"><i class="fa-solid fa-shield-halved"></i> 2257 Statement</span>
+                        <span class="cert-tag"><i class="fa-solid fa-certificate"></i> 18+ Only</span>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Popular Genres</h4>
+                    <ul class="footer-links">
+                        <li><a href="#categories">Japanese AV Uncensored</a></li>
+                        <li><a href="#categories">Asian Creampie</a></li>
+                        <li><a href="#categories">Massage &amp; Spa</a></li>
+                        <li><a href="#categories">Cosplay &amp; Roleplay</a></li>
+                        <li><a href="#categories">Korean &amp; Chinese Stream</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Legal &amp; Safety</h4>
+                    <ul class="footer-links">
+                        <li><a href="2257.html">18 U.S.C. 2257 Statement</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="dmca.html">DMCA &amp; Content Removal</a></li>
+                        <li><a href="report.html">Report Content</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom-bar" id="compliance">
+                <p>&copy; 2026 VelvetStream HD. All rights reserved. 18+ Adult Video Aggregator.</p>
+                <p class="compliance-note">
+                    <i class="fa-solid fa-shield-halved"></i> This site does not produce or host sexually explicit content. All videos are embedded from third-party platforms that are responsible for their own &sect; 2257 records. See our <a href="2257.html">2257 Statement</a>.
+                </p>
+            </div>
         </div>
     </footer>
 
-    <script src="videos_data.js"></script>
-    <script src="script.js"></script>
+    <!-- 首屏数据：只含 24 条，gzip 后约 2.4KB -->
+    <script src="videos_core.js" defer></script>
+    <script src="script.js" defer></script>
+    <!-- videos_data.js（1270 条）由 script.js 在浏览器空闲时自动加载，勿在此引用 -->
 </body>
 </html>
